@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+
+# IDE and operating-system metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.iml
+
+# Generated outputs
+logs/*
+!logs/.gitkeep
+results/*
+!results/.gitkeep
+*.out
+*.err
+
+# Model checkpoints and cached analysis objects
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.npz
+
+# Raw/private data
+data/raw/
+*blacklist*.json
+
+# Representation artifacts are released separately or through Git LFS.
+data/representations/*.npy
+data/representations/*.parquet
