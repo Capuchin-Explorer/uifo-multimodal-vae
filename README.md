@@ -4,9 +4,10 @@
 
 This repository contains the final structured multimodal variational autoencoder developed for a bachelor’s thesis on recurring structure in optimized quasi-universal interferometer (UIFO) configurations. The pipeline combines three sources of information:
 
-- a discrete and continuous detector configuration,
-- a 50-point broadband strain-sensitivity curve, and
-- one of three alternative configuration representations: **Flat**, **Grid**, or **Aliased**.
+- a 50-point broadband strain-sensitivity curve,
+- discrete topology , and
+- continuous parameter values.
+
 
 The main methodological contribution is a shared topology-aware tokenization. Representation-specific feature vectors are mapped to a common sequence of node, edge, and global tokens, processed by a transformer encoder, fused with a sensitivity embedding, and compressed into a 32-dimensional variational latent space.
 
