@@ -12,6 +12,8 @@ The model jointly processes:
 
 Flat, Grid, and Aliased configuration vectors are converted into topology-aware token sequences, processed by a transformer encoder, fused with the sensitivity representation, and compressed into a 32-dimensional variational latent space.
 
+The repository contains all precomputed representation artifacts required for training. After resolving the Git LFS files and installing the Python dependencies, the repository can be transferred to an HPC system and executed without downloading raw simulation data or rerunning the feature extractors.
+
 ## Installation
 
 The released datasets are included through Git LFS. Install Git LFS before cloning:
